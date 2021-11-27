@@ -1,0 +1,34 @@
+.badge {
+    width: 55px;
+    height: 22px;
+}
+
+
+/* Esli dobavliau v <div> ne pashet */
+.pricePanel {
+    width: 70px;
+}
+/* ========================== */
+
+.btn {
+    text-transform: uppercase;
+}
+.captionLink{
+    text-decoration: none;
+}
+.caption{
+    color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', 
+    Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}
+.priceText{
+    font-family: 'Gill Sans', 'Gill Sans MT', 
+    Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.22rem;
+}
+.btnText{
+    font-family: 'Gill Sans', 'Gill Sans MT', 
+    Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.6rem;
+}
