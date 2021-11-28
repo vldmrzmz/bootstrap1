@@ -1,0 +1,46 @@
+<<<<<<< Updated upstream
+=======
+.badge {
+    width: 55px;
+    height: 22px;
+}
+
+
+/* Esli dobavliau v <div> ne pashet */
+.pricePanel {
+    width: 70px;
+}
+/* ========================== */
+
+.btn {
+    text-transform: uppercase;
+}
+.captionLink {
+    text-decoration: none;
+}
+.caption {
+    color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT',
+    Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}
+.priceText {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.btnText {
+    font-family: 'Gill Sans', 'Gill Sans MT',
+    Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.6rem;
+}
+.rText {
+    font-family: 'Gill Sans', 'Gill Sans MT',
+    Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.4rem;
+}
+.card {
+    width: 26.2rem;
+    margin: 0 .4%;
+}
+
+>>>>>>> Stashed changes
