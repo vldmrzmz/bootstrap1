@@ -1,46 +1,95 @@
-<<<<<<< Updated upstream
-=======
-.badge {
-    width: 55px;
-    height: 22px;
-}
-
-
-/* Esli dobavliau v <div> ne pashet */
-.pricePanel {
-    width: 70px;
-}
-/* ========================== */
 
 .btn {
     text-transform: uppercase;
+    padding-top: 3px;
+    height: 3.8vh;
+    width: 97%;
+    margin-bottom: 10%;
 }
 .captionLink {
     text-decoration: none;
-}
+}   
+
 .caption {
     color:black;
     font-family: 'Gill Sans', 'Gill Sans MT',
     Calibri, 'Trebuchet MS', sans-serif;
     font-size: 17px;
+    height: 6vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 7%;
 }
-.priceText {
-    font-size: 1.1rem;
+.badge {
+    width: 55px;
+    height: 22px;
     font-weight: 600;
+    padding: 0;
+    margin-top: 1.1%;
+}
+.badge h6{
+    margin-top: 3px;
+    font-size: 14px;
 }
 .btnText {
     font-family: 'Gill Sans', 'Gill Sans MT',
     Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }
 .rText {
     font-family: 'Gill Sans', 'Gill Sans MT',
     Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.4rem;
+    font-size: 1.21rem;
 }
 .card {
-    width: 26.2rem;
-    margin: 0 .4%;
-}
+    width: 20rem;
+    margin: 0.3%;
+    box-shadow: 0 0 8px  rgba(0, 0, 0, 0.493);
 
->>>>>>> Stashed changes
+    border: none;
+    padding: 0.4%;
+}
+.card-body {
+    padding: 2%;
+}
+.card-img-top {
+    height: 55%;
+    object-fit: contain;
+}
+.pricePanel {
+    margin: 9% 0 5%;
+}
+.label {
+    height: 20px;
+    max-width: 44px;
+    background-color: blueviolet;
+    border-radius: 7px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;  
+    margin: 0;
+    padding: 0; 
+    position: relative;
+    left: 82%;
+    margin: 7px;
+}
+.labelText {
+    font-size: 13px;
+    color: #fff;
+    position: relative;
+    left: -1px;
+    top: -1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.icons {
+    color: rgb(196, 36, 36);
+}
+.iconPanel {
+    position: relative;
+    left: 20px;
+    bottom: 10px;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
